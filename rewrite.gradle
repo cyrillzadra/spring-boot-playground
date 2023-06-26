@@ -11,7 +11,7 @@ initscript {
 addListener(new BuildInfoPluginListener())
 
 allprojects {
-    project.beforeEvaluate {
+    project.afterEvaluate {
         if (!project.plugins.hasPlugin(org.openrewrite.gradle.RewritePlugin)) {
             project.plugins.apply(org.openrewrite.gradle.RewritePlugin)
         }
