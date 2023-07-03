@@ -7,6 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PlayGroundApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(PlayGroundApplication.class, args);
+    /*~~>*/SpringApplication.run(PlayGroundApplication.class, args);
   }
 }
